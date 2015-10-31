@@ -9,3 +9,7 @@ tell application "System Events" to tell process "System Preferences"
 end tell
 quit application "System Preferences"'
 
+
+defaults write com.apple.finder NewWindowTarget PfHm
+
+
