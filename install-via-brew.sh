@@ -7,6 +7,7 @@ brew cask install transmission
 brew cask install dropbox
 brew cask install skype 
 brew cask install vlc
+brew cask install skim 
 
 # install python
 brew install python3
