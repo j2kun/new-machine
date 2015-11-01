@@ -8,4 +8,6 @@ rm -f *.fdb_latexmk
 rm -f *.out
 rm -f *.log
 rm -f *.synctex
+rm -f *.synctex.gz
+rm -f *.vtc
 
