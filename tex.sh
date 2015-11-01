@@ -3,6 +3,14 @@
 # install/update the TeX distribution
 # set up various tex scripts and specialities
  
+# MacTeX distribution installation
+
+brew cask install mactex
+
+
+# Latexmk installation and configuration
+
+
 # install latexmk and add it to your path
 cd /tmp
 wget http://users.phys.psu.edu/~collins/software/latexmk-jcc/latexmk-443a.zip
@@ -30,3 +38,10 @@ mkdir -p ~/.vim/ftplugin/
 touch ~/.vim/ftplugin/tex.vim
 echo 'set updatetime=1000' >> ~/.vim/ftplugin/tex.vim
 echo 'autocmd CursorHoldI,CursorHold,BufLeave,FocusLost silent! wall' >> ~/.vim/ftplugin/tex.vim
+
+
+
+# Custom scripts
+
+cp cleantex /usr/local/bin/cleantex
+chmod 755 /usr/local/bin/cleantex

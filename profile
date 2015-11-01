@@ -1,2 +1,4 @@
-alias ls='ls --color=auto'
 alias lc='clear; ls'
+
+export CLICOLOR=1
+export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx

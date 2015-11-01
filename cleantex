@@ -1,0 +1,11 @@
+#!/bin/bash
+
+rm -f *.blg
+rm -f *.dvi
+rm -f *.aux
+rm -f *.fls
+rm -f *.fdb_latexmk
+rm -f *.out
+rm -f *.log
+rm -f *.synctex
+
