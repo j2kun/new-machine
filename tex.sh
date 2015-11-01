@@ -40,7 +40,6 @@ echo 'set updatetime=1000' >> ~/.vim/ftplugin/tex.vim
 echo 'autocmd CursorHoldI,CursorHold,BufLeave,FocusLost silent! wall' >> ~/.vim/ftplugin/tex.vim
 
 
-
 # Custom scripts
 
 cp cleantex /usr/local/bin/cleantex
