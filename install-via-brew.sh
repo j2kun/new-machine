@@ -1,6 +1,9 @@
 #!/bin/bash
 
 brew install wget
+brew install lame 
+brew install flac 
+brew install ffmpeg
 brew install caskroom/cask/brew-cask
 brew cask install google-chrome
 brew cask install transmission
@@ -17,5 +20,5 @@ ln -s /usr/local/bin/python3 /usr/local/bin/python
 
 
 # install Battle.net for Blizzard games; opens new window
-brew cask install battle-net 
-open /opt/homebrew-cask/Caskroom/battle-net/latest/Battle.net-Setup-enUS.app
+# brew cask install battle-net 
+# open /opt/homebrew-cask/Caskroom/battle-net/latest/Battle.net-Setup-enUS.app
