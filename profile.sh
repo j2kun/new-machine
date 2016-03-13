@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp profile ~/.profile
+cp dotfiles/profile ~/.profile

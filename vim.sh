@@ -12,4 +12,4 @@ git clone https://github.com/sjl/badwolf/ ~/.vim/bundle/badwolf
 
 
 # copy the vimrc
-cp vimrc ~/.vimrc
+cp dotfiles/vimrc ~/.vimrc

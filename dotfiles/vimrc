@@ -25,13 +25,14 @@ nnoremap <leader>sv :source $MYVIMRC<CR>
 colorscheme badwolf     " awesome colorscheme
 syntax enable           " enable syntax processing
 set tabstop=3           " number of visual spaces per TAB
+set shiftwidth=3        " number of visual spaces per shift
 set softtabstop=3       " number of spaces in tab when editing
 set expandtab           " tabs are spaces
 
 
 " UI Config
 
-set number              " show line numbers
+" set number              " show line numbers
 set showcmd             " show command in bottom bar
 set cursorline          " highlight current line
 set wildmenu            " visual autocomplete for command menu
@@ -42,7 +43,6 @@ set showmatch           " highlight matching [{()}]
 " Searching
 
 set incsearch           " search as characters are entered
-set hlsearch            " highlight matches
 
 " turn off search highlight
 nnoremap <leader><space> :nohlsearch<CR>
@@ -57,11 +57,18 @@ nnoremap k gk
 " move to beginning/end of line
 nnoremap B ^
 nnoremap E $
+inoremap <C-e> <Esc>A
+inoremap <C-a> <Esc>I
 
 " highlight last inserted text
 nnoremap gV `[v`]
 
 
+" faster movement through vsplit
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 " Ctrl-P settings
 

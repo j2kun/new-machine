@@ -32,3 +32,4 @@ organization preferences. They will be different for you.
 
  - Put the vimrc in a separate (updated) repository and have this script clone the repo
  - Install numpy, scipy, django, etc
+ - copy simple ~/bin scripts
