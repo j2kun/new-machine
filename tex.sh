@@ -27,7 +27,7 @@ echo "alias latexmk='latexmk.pl -pvc'" >> ~/.profile
 echo '$pdf_mode = 1;' >> ~/.latexmkrc
 echo '$postscript_mode = 0;' >> ~/.latexmkrc
 echo '$dvi_mode = 0;' >> ~/.latexmkrc
-echo '$pdf_previewer = "open -a /Applications/Skim.app";' >> ~/.latexmkrc
+echo '$pdf_previewer = "open -a ~/Applications/Skim.app";' >> ~/.latexmkrc
 echo '$clean_ext = "paux lox pdfsync out";' >> ~/.latexmkrc
 
 # tell Skim to watch for file changes
