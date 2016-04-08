@@ -16,9 +16,9 @@ brew cask install skim
 brew install python3
 ln -s /usr/local/bin/python3 /usr/local/bin/python
 
-		# this doesn't seem to work...yet.
+# this doesn't seem to work...yet.
 
 
 # install Battle.net for Blizzard games; opens new window
-# brew cask install battle-net 
-# open /opt/homebrew-cask/Caskroom/battle-net/latest/Battle.net-Setup-enUS.app
+brew cask install battle-net 
+open /opt/homebrew-cask/Caskroom/battle-net/latest/Battle.net-Setup-enUS.app

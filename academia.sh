@@ -4,21 +4,18 @@
 # and install programs related to academic work 
 
 # link talks to my dropbox folder of talks
-ln -s ~/Dropbox/talks ~/work/talks 
+ln -s ~/Dropbox/talks ~/academia/talks 
 # ditto for grants, books, papers, cv
-ln -s ~/Dropbox/grants ~/work/grants
-ln -s ~/Dropbox/papers ~/work/papers
-ln -s ~/Dropbox/books ~/work/books
-ln -s ~/Dropbox/cv ~/work/cv
-ln -s ~/Dropbox/teaching ~/work/teaching
+ln -s ~/Dropbox/grants ~/academia/grants
+ln -s ~/Dropbox/papers ~/academia/papers
+ln -s ~/Dropbox/books ~/academia/books
+ln -s ~/Dropbox/cv ~/academia/cv
+ln -s ~/Dropbox/teaching ~/academia/teaching
 
 # clone github repo of archival papers
-git clone https://github.com/j2kun/archival-papers.git archival-papers
+git clone https://github.com/j2kun/archival-papers.git ~/academia/archival-papers
 
 # install onecv and copy existing cv data from Dropbox
 cd ~/Dropbox/onecv/
 python setup.py install
 cd -
-
-
-

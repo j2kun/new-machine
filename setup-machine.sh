@@ -15,4 +15,5 @@ bash tex.sh
 bash blog.sh
 bash academia.sh
 
-
+# dock settings
+bash dock.sh
