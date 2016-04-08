@@ -16,6 +16,6 @@ ln -s ~/Dropbox/teaching ~/academia/teaching
 git clone https://github.com/j2kun/archival-papers.git ~/academia/archival-papers
 
 # install onecv and copy existing cv data from Dropbox
-cd ~/Dropbox/onecv/
+cd ~/Dropbox/projects/onecv/
 python setup.py install
 cd -
