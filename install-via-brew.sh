@@ -11,6 +11,7 @@ brew cask install dropbox
 brew cask install skype 
 brew cask install vlc
 brew cask install skim 
+brew cask install flux
 
 # install python
 brew install python3

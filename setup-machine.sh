@@ -17,3 +17,5 @@ bash academia.sh
 
 # dock settings
 bash dock.sh
+
+open ~/Applications/Flux.app
