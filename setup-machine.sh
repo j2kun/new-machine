@@ -9,7 +9,10 @@ bash install-brew.sh
 bash install-via-brew.sh
 bash pip-libraries.sh
 bash preferences.sh
-bash tex.sh
+bash developer-tools.sh
+
+# takes a long time
+bash tex.sh 
 
 # this stuff is all particular to my directory structure and Dropbox organization
 bash blog.sh
@@ -18,4 +21,5 @@ bash academia.sh
 # dock settings
 bash dock.sh
 
-open ~/Applications/Flux.app
+# open to start/set settings on certain apps
+open ~/Applications/Flux.app 
