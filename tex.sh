@@ -31,6 +31,7 @@ echo '$pdf_previewer = "open -a ~/Applications/Skim.app";' >> ~/.latexmkrc
 echo '$clean_ext = "paux lox pdfsync out";' >> ~/.latexmkrc
 
 # tell Skim to watch for file changes
+defaults write -app Skim SKAutoCheckFileUpdate -boolean true
 defaults write -app Skim SKAutoReloadFileUpdate -boolean true
 
 # set up vim to autosave tex files on 1 second of idle
