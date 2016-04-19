@@ -6,6 +6,7 @@ brew install lame
 brew install flac 
 brew install ffmpeg
 brew install fasd
+brew install vim
 
 # Applications
 brew install caskroom/cask/brew-cask
