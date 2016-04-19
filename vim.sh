@@ -14,3 +14,4 @@ git clone https://github.com/nvie/vim-flake8 ~/.vim/bundle/vim-flake8
 
 # copy the vimrc
 cp dotfiles/vimrc ~/.vimrc
+brew linkapps vim
