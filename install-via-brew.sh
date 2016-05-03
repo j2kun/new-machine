@@ -17,6 +17,7 @@ brew cask install skype
 brew cask install vlc
 brew cask install skim 
 brew cask install flux
+brew cask install shuttle
 
 # install python
 brew install python3
