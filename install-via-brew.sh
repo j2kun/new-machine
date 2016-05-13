@@ -18,6 +18,7 @@ brew cask install vlc
 brew cask install skim 
 brew cask install flux
 brew cask install shuttle
+brew cask install spectacle 
 
 # install python
 brew install python3
