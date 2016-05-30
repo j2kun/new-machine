@@ -10,6 +10,7 @@ git clone http://github.com/sjl/gundo.vim.git ~/.vim/bundle/gundo
 git clone https://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
 git clone https://github.com/sjl/badwolf/ ~/.vim/bundle/badwolf
 git clone https://github.com/nvie/vim-flake8 ~/.vim/bundle/vim-flake8
+git clone git://github.com/airblade/vim-gitgutter.git ~/.vim/bundle/vim-gitgutter
 
 
 # copy the vimrc
