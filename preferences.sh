@@ -9,7 +9,8 @@ defaults write com.apple.dock launchanim -bool false
 defaults write com.apple.dock expose-animation-duration -float 0.1
 defaults write com.apple.Dock autohide-delay -float 0
 defaults write com.apple.Safari WebKitInitialTimedLayoutDelay 0.25
-defaults write NSGlobalDomain KeyRepeat -int 0
+defaults write -g InitialKeyRepeat -int 15
+defaults write NSGlobalDomain KeyRepeat -int 2
 
 
 # Disable “natural” (Lion-style) scrolling
