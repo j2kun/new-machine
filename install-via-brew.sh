@@ -7,6 +7,7 @@ brew install flac
 brew install ffmpeg
 brew install fasd
 brew install vim
+brew install jq
 
 # Applications
 brew install caskroom/cask/brew-cask
