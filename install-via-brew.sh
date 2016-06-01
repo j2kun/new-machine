@@ -8,6 +8,7 @@ brew install ffmpeg
 brew install fasd
 brew install vim
 brew install jq
+brew install zsh 
 
 # Applications
 brew install caskroom/cask/brew-cask
