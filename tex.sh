@@ -3,11 +3,15 @@
 # install/update the TeX distribution
 # set up various tex scripts and specialities
  
-# MacTeX distribution installation
+# BasicTex distribution installation
 
 brew cask install basictex
 
 echo 'export PATH=$PATH:/Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin' >> ~/.zshrc
+
+# Install some needed packages above the base packages
+tlmgr update --self
+tlmgr install wallpaper libertine wrapfig  mweights fontaxes
 
 # Latexmk installation and configuration
 
