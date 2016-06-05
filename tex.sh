@@ -7,6 +7,7 @@
 
 brew cask install basictex
 
+echo 'export PATH=$PATH:/Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin' >> ~/.zshrc
 
 # Latexmk installation and configuration
 
@@ -21,7 +22,7 @@ rm -rf latexmk
 cd -
 
 # set latexmk to watch tex files for updates
-echo "alias latexmk='latexmk.pl -pvc'" >> ~/.profile
+echo "alias latexmk='latexmk.pl -pvc'" >> ~/.zshrc
 
 # add a latexmkrc to use skim, do syncing correctly
 echo '$pdf_mode = 1;' >> ~/.latexmkrc

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bash profile.sh
+bash shell.sh
 bash git.sh
 bash vim.sh
 bash directories.sh
