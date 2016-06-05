@@ -5,7 +5,7 @@
  
 # MacTeX distribution installation
 
-brew cask install mactex
+brew cask install basictex
 
 
 # Latexmk installation and configuration
