@@ -1,0 +1,6 @@
+{
+    /* Math dictionary */
+    "^m  " = {
+        "i"  = ("insertText:", "∩");
+    };
+}
