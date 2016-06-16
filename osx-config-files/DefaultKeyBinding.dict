@@ -1,6 +1,7 @@
 {
     /* Math dictionary */
-    "^m  " = {
-        "i"  = ("insertText:", "∩");
+    "^m" = {
+        "^i"  = ("insertText:", "\U2229");
+        "a"  = ("insertText:", "\U03B1");
     };
 }
