@@ -21,6 +21,7 @@ brew cask install skim
 brew cask install flux
 brew cask install shuttle
 brew cask install spectacle 
+brew cask install gimp
 
 # install python
 brew install python3
