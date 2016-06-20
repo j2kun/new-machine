@@ -1,7 +1,46 @@
 {
     /* Math dictionary */
     "^m" = {
-        "^i"  = ("insertText:", "\U2229");
+        /* Greek letters */
         "a"  = ("insertText:", "\U03B1");
+        "b"  = ("insertText:", "\U03B2");
+        "c"  = ("insertText:", "\U03BE");
+        "d"  = ("insertText:", "\U03B4");
+        "D"  = ("insertText:", "\U0394");
+        "e"  = ("insertText:", "\U03B5");
+        "f"  = ("insertText:", "\U03C6");
+        "g"  = ("insertText:", "\U03B3");
+        "G"  = ("insertText:", "\U0393");
+        "h"  = ("insertText:", "\U03B8");
+        "H"  = ("insertText:", "\U0398");
+        "i"  = ("insertText:", "\U03B9");
+        "k"  = ("insertText:", "\U03BA");
+        "l"  = ("insertText:", "\U03BB");
+        "L"  = ("insertText:", "\U039B");
+        "m"  = ("insertText:", "\U03BC");
+        "n"  = ("insertText:", "\U03BD");
+        "o"  = ("insertText:", "\U03C9");
+        "p"  = ("insertText:", "\U03C0");
+        "r"  = ("insertText:", "\U03C1");
+        "s"  = ("insertText:", "\U03C3");
+        "S"  = ("insertText:", "\U03A3");
+        "t"  = ("insertText:", "\U03C4");
+        "u"  = ("insertText:", "\U03C5");
+        "x"  = ("insertText:", "\U03C7");
+        "y"  = ("insertText:", "\U03C8");
+        "z"  = ("insertText:", "\U03B6");
+
+        /* Operators */
+        "^a"  = ("insertText:", "\U2200"); /* forall */
+        "^e"  = ("insertText:", "\U2202"); /* exists */
+        "^i"  = ("insertText:", "\U2229"); /* intersection */
+        "^u"  = ("insertText:", "\U222A"); /* union */
+        "^n"  = ("insertText:", "\U00AC"); /* negation */
+        "^t"  = ("insertText:", "\U27F9"); /* \to */
+        "^f"  = ("insertText:", "\U27FA"); /* iff */
+        "^p"  = ("insertText:", "\U220F"); /* product */
+        "^s"  = ("insertText:", "\U2211"); /* sum */
+        "^c"  = ("insertText:", "\U2245"); /* isomorphic */
+        "^x"  = ("insertText:", "\U2A09"); /* times */
     };
 }
