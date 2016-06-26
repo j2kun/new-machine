@@ -9,6 +9,7 @@ brew install fasd
 brew install vim
 brew install jq
 brew install zsh 
+brew install rename
 
 # Applications
 brew install caskroom/cask/brew-cask
