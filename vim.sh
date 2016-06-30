@@ -12,7 +12,7 @@ git clone https://github.com/sjl/badwolf/ ~/.vim/bundle/badwolf
 git clone https://github.com/nvie/vim-flake8 ~/.vim/bundle/vim-flake8
 git clone https://github.com/airblade/vim-gitgutter ~/.vim/bundle/vim-gitgutter
 git clone https://github.com/altercation/vim-colors-solarized ~/.vim/bundle/vim-colors-solarized
-
+git clone https://github.com/kchmck/vim-coffee-script.git ~/.vim/bundle/vim-coffee-script/
 
 # copy the vimrc
 cp dotfiles/vimrc ~/.vimrc
