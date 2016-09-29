@@ -10,6 +10,7 @@ brew install vim
 brew install jq
 brew install zsh 
 brew install rename
+brew install tree
 
 # Applications
 brew install caskroom/cask/brew-cask
