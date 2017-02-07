@@ -1,4 +1,6 @@
 #!/bin/bash
+git clone https://github.com/j2kun/dotfiles.git ~/dotfiles
+cp -r ~/dotfiles/* ~/
 
 bash shell.sh
 bash git.sh
