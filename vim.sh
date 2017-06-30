@@ -15,6 +15,7 @@ git clone https://github.com/altercation/vim-colors-solarized ~/.vim/bundle/vim-
 git clone https://github.com/kchmck/vim-coffee-script.git ~/.vim/bundle/vim-coffee-script
 git clone https://github.com/hynek/vim-python-pep8-indent.git ~/.vim/bundle/vim-python-pep8-indent
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git ~/.vim/bundle/syntastic
+git clone https://github.com/fisadev/vim-isort.git ~/.vim/bundle/vim-isort
 
 # copy the vimrc
 cp dotfiles/vimrc ~/.vimrc
