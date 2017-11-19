@@ -25,15 +25,16 @@ rm latexmk-443a.zip
 rm -rf latexmk
 cd -
 
+# These are moved to dotfiles now
 # set latexmk to watch tex files for updates
-echo "alias latexmk='latexmk.pl -pvc'" >> ~/.zshrc
+# echo "alias latexmk='latexmk.pl -pvc'" >> ~/.zshrc
 
 # add a latexmkrc to use skim, do syncing correctly
-echo '$pdf_mode = 1;' >> ~/.latexmkrc
-echo '$postscript_mode = 0;' >> ~/.latexmkrc
-echo '$dvi_mode = 0;' >> ~/.latexmkrc
-echo '$pdf_previewer = "open -a ~/Applications/Skim.app";' >> ~/.latexmkrc
-echo '$clean_ext = "paux lox pdfsync out";' >> ~/.latexmkrc
+# echo '$pdf_mode = 1;' >> ~/.latexmkrc
+# echo '$postscript_mode = 0;' >> ~/.latexmkrc
+# echo '$dvi_mode = 0;' >> ~/.latexmkrc
+# echo '$pdf_previewer = "open -a /Applications/Skim.app";' >> ~/.latexmkrc
+# echo '$clean_ext = "paux lox pdfsync out";' >> ~/.latexmkrc
 
 # tell Skim to watch for file changes
 defaults write -app Skim SKAutoCheckFileUpdate -boolean true
@@ -48,5 +49,5 @@ echo 'autocmd CursorHoldI,CursorHold,BufLeave,FocusLost silent! wall' >> ~/.vim/
 
 # Custom scripts
 
-cp cleantex /usr/local/bin/cleantex
-chmod 755 /usr/local/bin/cleantex
+# cp cleantex /usr/local/bin/cleantex
+# chmod 755 /usr/local/bin/cleantex
