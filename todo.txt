@@ -1,0 +1,7 @@
+hot corners
+finish shell setup
+natural scroll direction
+caps lock as ctrl
+close shell window when exits
+clean up finder sidebar
+clean up launchpad
