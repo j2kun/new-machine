@@ -10,8 +10,8 @@ brew cask install basictex
 echo 'export PATH=$PATH:/Library/TeX/Distributions/.DefaultTeX/Contents/Programs/texbin' >> ~/.zshrc
 
 # Install some needed packages above the base packages
-tlmgr update --self
-tlmgr install wallpaper libertine wrapfig  mweights fontaxes
+sudo tlmgr update --self
+sudo tlmgr install wallpaper libertine wrapfig  mweights fontaxes blkarray
 
 # Latexmk installation and configuration
 
