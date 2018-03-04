@@ -21,5 +21,5 @@ git clone https://github.com/Valloric/YouCompleteMe.git
 cd YouCompleteMe
 git submodule update --init --recursive
 # requires cmake installed via brew
-./install.py --clang-completer --go-completer --js-completer --java-completer
+./install.py --clang-completer
 cd -
