@@ -11,6 +11,7 @@ brew install jq
 brew install zsh 
 brew install rename
 brew install tree
+brew install cmake
 
 # Applications
 brew install caskroom/cask/brew-cask

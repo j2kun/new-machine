@@ -15,3 +15,11 @@ git clone https://github.com/altercation/vim-colors-solarized ~/.vim/bundle/vim-
 git clone https://github.com/hynek/vim-python-pep8-indent.git ~/.vim/bundle/vim-python-pep8-indent
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git ~/.vim/bundle/syntastic
 git clone https://github.com/fisadev/vim-isort.git ~/.vim/bundle/vim-isort
+
+cd ~/.vim/bundle
+git clone https://github.com/Valloric/YouCompleteMe.git                      
+cd YouCompleteMe
+git submodule update --init --recursive
+# requires cmake installed via brew
+./install.py --clang-completer --go-completer --js-completer --java-completer
+cd -
